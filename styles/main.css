@@ -190,3 +190,8 @@ nav button {
 
 
 /*SECOND SECTION CSS*/
+
+.second-section {
+    width: 100vw;
+    height: 50vh;
+}

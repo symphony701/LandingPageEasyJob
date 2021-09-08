@@ -251,4 +251,5 @@ nav button {
     width: 131px;
     height: 47px;
     border-radius: 16px;
+    font-weight: bold !important;
 }

@@ -248,7 +248,7 @@ nav button {
 
 .container-button button {
     background-color: var(--main-color);
-    width: 131px;
+    width: auto !important;
     height: 47px;
     border-radius: 16px;
     font-weight: bold !important;

@@ -107,6 +107,10 @@ nav button {
     color: var(--main-color);
 }
 
+.job-search .btn{
+    border-radius: 14px !important;
+}
+
 .job-search label {
     color: var(--main-color) !important;
 }

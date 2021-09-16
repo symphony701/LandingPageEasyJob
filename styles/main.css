@@ -27,14 +27,18 @@ nav h2 {
     margin-top: 20px !important;
 }
 
-nav button {
-    background: white;
+.nav-boton {
+    background: white !important;
     width: 9pc;
     height: 2.7pc;
     border-radius: 16px;
     font-weight: 700;
     border: 1px solid transparent;
     color: var(--main-color);
+    background: white !important;
+    color: purple !important;
+    border-color: white;
+    border-radius: 23px;
 }
 
 @font-face {
@@ -45,8 +49,6 @@ nav button {
 .EasyJobs {
     color: white;
     margin: 0px;
-    margin-left: 20px;
-    margin-top: 10px;
     font-family: HarlowSolidItalic;
     font-size: 2.2rem;
 }
@@ -64,7 +66,7 @@ nav button {
     width: 1px;
     background-color: white;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .body {
@@ -91,14 +93,11 @@ nav button {
 .job-search {
     background: white;
     border: 1px solid rgb(163, 161, 161);
-    width: 53%;
+    width: 53% !important;
     border-radius: 43px;
     height: 13%;
     align-items: center;
     margin: 60px 0px 0px 0px;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
 }
 
 .input-field {
@@ -374,6 +373,9 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+    }
+    .options-buttons .btn {
+        margin-top: 15px;
     }
 }
 

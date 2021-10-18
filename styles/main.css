@@ -356,7 +356,7 @@ nav h2 {
 }
 
 footer {
-    height: 20vh;
+    height: auto;
     width: 100%;
     background-color: var(--main-color);
     display: flex !important;
